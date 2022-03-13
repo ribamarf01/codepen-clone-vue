@@ -6,11 +6,11 @@ export const store = createStore({
     css: '',
     js: '',
     srcDoc: `
-    <html>
-    <body></body>
-    <style></style>
-    <script></script>
-    </html>
+      <html>
+      <body></body>
+      <style></style>
+      <script></script>
+      </html>
     `
   }),
   mutations: {
@@ -26,9 +26,9 @@ export const store = createStore({
     SET_DOC: (state) => {
       state.srcDoc = `
         <html>
-        <body>${state.html}</body>
-        <style>${state.css}</style>
-        <script>${state.js}</script>
+          <body>${state.html}</body>
+          <style>${state.css}</style>
+          <script>${state.js}</script>
         </html>
       `
     }

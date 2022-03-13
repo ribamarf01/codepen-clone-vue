@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full flex flex-col">
     <div class="h-[50vh] flex justify-around bg-gray-600">
       <Editor
         editorLang="HTML"
@@ -14,13 +14,12 @@
         lang='javascript'
       />
     </div>
-    <iframe
+      <iframe
       :srcdoc="source"
       title="output"
       sandbox="allow-scripts"
       frameBorder="0"
-      width="100%"
-      height="100%"
+      class="bg-red-200 top-[50vh] absolute w-full h-1/2"
     />
   </div>
 </template>
