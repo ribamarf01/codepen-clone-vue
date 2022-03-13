@@ -19,7 +19,7 @@
       title="output"
       sandbox="allow-scripts"
       frameBorder="0"
-      class="bg-red-200 top-[50vh] absolute w-full h-1/2"
+      class="top-[50vh] absolute w-full h-1/2"
     />
   </div>
 </template>
