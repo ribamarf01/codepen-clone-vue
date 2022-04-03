@@ -14,13 +14,18 @@
         lang='javascript'
       />
     </div>
+    <div class="top-[50vh] absolute h-1/2 w-full">
       <iframe
-      :srcdoc="source"
-      title="output"
-      sandbox="allow-scripts"
-      frameBorder="0"
-      class="top-[50vh] absolute w-full h-1/2"
-    />
+        :srcdoc="source"
+        title="output"
+        sandbox="allow-scripts"
+        frameBorder="0"
+        class="absolute"
+        width="100%"
+        height="100%"
+        allowfullscreen
+      />
+    </div>
   </div>
 </template>
 
