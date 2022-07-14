@@ -4,7 +4,7 @@
 
 - 😎 A app that simulate Codepen main functionality to write HTML, CSS and JavaScript made in Vue
 - 👨‍💻 Uses Vuex to keep the code state the same between components and CodeMirror to easily build a code editor component with syntax highlight... and Dracula theme 🦇.
-- 🔗 You can find this project live on: https://codepen-clone-vue.vercel.app.
+- 🔗 You can find this project live on: https://codepen-clone.ribamarf01.dev/.
 
 ## 🔥 Techs used
 
